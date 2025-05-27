@@ -47,10 +47,7 @@ From there, I proceeded with the initial server configuration.
 
 > 🛠️ This is a work in progress. I'll update this README as I expand the setup (e.g., adding storage, clustering, VMs, containers, etc.).
 ```
+![Safari 2025-05-27 13 55 43](https://github.com/user-attachments/assets/d92915d1-e0a9-43bc-842c-bc13c5e17779)
 
-Let me know if you’d like to add badges, a table of contents, or sections for usage, screenshots, or future enhancements.
-
-
-![image](https://github.com/user-attachments/assets/2fb56f8b-676f-448e-97e4-6cd4bc9c92b6)
-
+![Safari 2025-05-27 14 01 01](https://github.com/user-attachments/assets/a67e2488-99b9-4636-a8f6-92cc1701df72)
 
