@@ -1,14 +1,55 @@
-# Proxmox
+# Proxmox VE 8.4 Setup
 
-I downlaoded the latest version of Proxmox VE 8.4 and used the open source GUI utility balencaEtcher to flash it to a usb drive.
+I downloaded the latest version of **Proxmox VE 8.4** and used the open-source GUI utility [balenaEtcher](https://www.balena.io/etcher/) to flash the ISO image to a USB drive.
 
-I am using an old De3ll Optiplex 9020 with an i7 and 16gb of ram and SSDF for my primary machine at the moemnt. I may add another dedicated serve later and keep this as a bakcup or part odf the cluster. I made sure to enabel UEFI boot and also enable all virtualiziont features and then proceeded to boot form the USB to isntall Proxmox.
+## Hardware
 
-THis is my first time using proxmox so I chose the GUI isntallationa dn let it go to work. 
+- **Machine:** Dell OptiPlex 9020
+- **CPU:** Intel Core i7
+- **RAM:** 16 GB
+- **Storage:** SSD
 
-For network I assinged it as static ip address of 192.168.100 and the proper dns and gateway address and set a hsotname as well. 
+This is my current primary Proxmox machine. I may add a dedicated server later and use this one as a backup or as part of a Proxmox cluster.
 
-After the isntallation finished and the server rebooted, I was able to login formt he web interface on port 8006 to finihs ocnfiguring the server.
+## BIOS Configuration
+
+Before installing Proxmox, I made sure to:
+
+- ✅ Enable **UEFI Boot**
+- ✅ Enable all **virtualization features** (e.g., VT-x, VT-d)
+- ✅ Boot from the **USB drive**
+
+## Installation
+
+Since this is my first time using Proxmox, I chose the **GUI installer** and followed the default installation flow.
+
+### Network Configuration
+
+During installation, I:
+
+- Assigned a **static IP address**: `192.168.1.100`
+- Set up **DNS** and **gateway**
+- Configured a **hostname**
+
+## Accessing the Web Interface
+
+After installation and reboot, I was able to access the Proxmox web interface at:
+
+```
+
+[https://192.168.1.100:8006](https://192.168.1.100:8006)
+
+```
+
+From there, I proceeded with the initial server configuration.
+
+---
+
+> 🛠️ This is a work in progress. I'll update this README as I expand the setup (e.g., adding storage, clustering, VMs, containers, etc.).
+```
+
+Let me know if you’d like to add badges, a table of contents, or sections for usage, screenshots, or future enhancements.
+
 
 ![image](https://github.com/user-attachments/assets/2fb56f8b-676f-448e-97e4-6cd4bc9c92b6)
 
